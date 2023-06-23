@@ -11,7 +11,7 @@ export const Container = styled.div`
     margin-top: 50px;
     border-radius: 6px;
     box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.2);
-    height: 60vh;
+    height: 70vh;
 `;
 
 export const Title = styled.h1`

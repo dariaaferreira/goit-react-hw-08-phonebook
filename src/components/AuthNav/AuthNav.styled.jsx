@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
+import { MdLogin, MdAppRegistration } from "react-icons/md";
 
 export const Container = styled.div`
   display: flex;
@@ -30,4 +31,12 @@ export const NavItem = styled(NavLink)`
   &:nth-of-type(2) {
     margin-right: 0;
   }
+`;
+
+export const IconLogin = styled(MdLogin)`
+  margin-right: 7px;
+`;
+
+export const IconReg = styled(MdAppRegistration)`
+  margin-right: 7px;
 `;

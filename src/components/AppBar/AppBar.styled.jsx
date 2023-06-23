@@ -5,6 +5,6 @@ export const Header = styled.header`
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #2A363B;
-    padding: 0 30px;
+    padding: 0 100px;
     height: 80px;
 `;
