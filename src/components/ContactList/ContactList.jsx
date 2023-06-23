@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 import ContactListItem from '../ContactListItem/ContactListItem';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { getContacts, getFilter } from '../../redux/selectors';
-import { fetchContacts } from 'redux/operations';
+import { getContacts, getFilter } from '../../redux/contacts/selectors';
+import { fetchContacts } from 'redux/contacts/operations';
 import { ListItems, Text } from './ContactList.styled';
 
 const ContactList = () => {
