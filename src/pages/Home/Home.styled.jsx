@@ -38,6 +38,11 @@ export const Text = styled.p`
 export const LinkSection = styled(Link)`
   color: #2196F3;
   text-decoration: none;
+
+  :hover,
+  :focus {
+    text-decoration: underline;
+  }
 `;
 
 export const ContainerFooter = styled.div`
