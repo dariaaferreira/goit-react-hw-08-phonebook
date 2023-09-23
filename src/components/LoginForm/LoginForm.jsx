@@ -52,7 +52,7 @@ export default function LoginForm() {
         <Button type="submit">Log in</Button>
       </Form>
 
-      <Text>Don't have an account? <LinkSection to="/login">Sign up</LinkSection></Text> 
+      <Text>Don't have an account? <LinkSection to="/register">Sign up</LinkSection></Text> 
     </div>
   );
 }

@@ -67,7 +67,7 @@ export default function RegisterForm() {
         <Button type="submit">Sign up</Button>
         </Form>
 
-        <Text>Already have an account? <LinkSection to="/register">Sign In</LinkSection></Text> 
+        <Text>Already have an account? <LinkSection to="/login">Sign In</LinkSection></Text> 
       </div>
   );
 }
